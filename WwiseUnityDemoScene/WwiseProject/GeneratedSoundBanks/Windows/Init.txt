@@ -1,0 +1,34 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3729505769	TimeOfDay			\Default Work Unit\TimeOfDay	
+
+State	ID	Name	State Group			Notes
+	311764537	Day	TimeOfDay			
+	748895195	None	TimeOfDay			
+	1011622525	Night	TimeOfDay			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	2246998526	Main Audio Bus			\Default Work Unit\Main Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	187046019	LargeRoom			\Default Work Unit\Main Audio Bus\LargeRoom	
+	2763016207	ThirdPerson			\Default Work Unit\Main Audio Bus\ThirdPerson	
+	2933838247	SmallRoom			\Default Work Unit\Main Audio Bus\SmallRoom	
+	3050928690	BlueCave			\Default Work Unit\Main Audio Bus\BlueCave	
+	3822919377	RedCave			\Default Work Unit\Main Audio Bus\RedCave	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1588715066	Echoes_Linear	Wwise Delay			
+	1958819083	SpatialAudio_Room_Medium	Wwise RoomVerb			When using RoomVerb with Spatial Audio rooms, we generatlly want to disable both early reflections (they wil be handled by Reflect) and the dry output (it is handled by the direct path)
+	2120793899	SpatialAudio_Room_Small	Wwise RoomVerb			When using RoomVerb with Spatial Audio rooms, we generatlly want to disable both early reflections (they wil be handled by Reflect) and the dry output (it is handled by the direct path)
+	2589936646	TestVolumeMeter	Wwise Meter			
+	2763016207	ThirdPerson	Wwise Reflect			
+	3164629247	Holy	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	530303819	Communication	Communication			
+	1334442663	Controller_Speaker	Controller Speaker			
+	2317455096	No_Output	No Output			
+	2396789687	Auxiliary	Auxiliary			
+	2868300805	Controller_Headphones	Controller Headphones			
+	3859886410	System	System			
+

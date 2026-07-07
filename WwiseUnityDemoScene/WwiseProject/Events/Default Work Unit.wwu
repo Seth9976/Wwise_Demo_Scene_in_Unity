@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6A82CCC2-FC68-4CF7-B7A8-397BAEFB847C}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{6A82CCC2-FC68-4CF7-B7A8-397BAEFB847C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footstep" ID="{44E3DE84-B37A-44BD-864A-2261F7CCBEFA}">
+					<ChildrenList>
+						<Action Name="" ID="{FB1B78FE-F6D0-4C47-8A21-A6A7FD8FF0BE}" ShortID="37895167">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Footsteps" ID="{B9AACCB4-790C-4F96-9F3B-7CDB94CA1197}" WorkUnitID="{4F57ECA1-45B1-4753-B7FA-B23715FE34F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlaySubtitles" ID="{E1495726-08FA-4ADC-8C53-C1051E5618C1}">
+					<ChildrenList>
+						<Action Name="" ID="{9073FAB6-2740-4738-B840-C59236DABDC1}" ShortID="65466123">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Marker_Test_001" ID="{4BBEAE7D-D379-40FA-B0DB-6784953E9468}" WorkUnitID="{7F9055E0-6891-4C5D-8F27-27EE97BBFC7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayImpact" ID="{E96687EC-1239-4B82-87EE-CAD782698541}">
+					<ChildrenList>
+						<Action Name="" ID="{272A1F81-20BA-4083-872B-C28B0B481FC6}" ShortID="508751600">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="imp_axe_stone_04" ID="{9F686227-8356-4DDD-A215-0FEB3F6EAE93}" WorkUnitID="{F5B9BDC9-A45E-41C0-A53A-CE7813E774FD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayDialogue" ID="{14B12237-A49A-4F53-A194-5727E8894F74}">
+					<ChildrenList>
+						<Action Name="" ID="{F125F77E-5F2C-44DF-BF4C-0DCF938042F5}" ShortID="730349943">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Dialogue" ID="{9991742D-3312-4BAB-8285-5C46FCC61956}" WorkUnitID="{C5022700-5A6B-440E-8534-C46A0000FA1F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayCubeMovement" ID="{C2FD42C9-BE2D-4539-A447-282A6F1B7F0F}">
+					<ChildrenList>
+						<Action Name="" ID="{60E51750-FE6E-47CD-AA53-997E33BB25AB}" ShortID="1046486252">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="CubeMovement" ID="{28596C07-AE42-45D4-AF28-1EF678FC6B47}" WorkUnitID="{34AAE393-38C7-4212-8786-DE6154640AA3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayRoomTone" ID="{38C34EC8-1D78-40F9-80BE-FA0A9445BB32}">
+					<ChildrenList>
+						<Action Name="" ID="{3A670ABD-A513-4D81-A72F-C44796250E01}" ShortID="786736871">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="RoomTone" ID="{1019D4B6-650B-47CB-9479-6E69DCF58872}" WorkUnitID="{C5022700-5A6B-440E-8534-C46A0000FA1F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayHello" ID="{39794F18-45E7-4115-8454-1ADC959AE1B7}">
+					<ChildrenList>
+						<Action Name="" ID="{9F531BE9-ED51-48B0-A83E-3726E167A1AE}" ShortID="41378275">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Hello" ID="{0F30A63A-9C8F-4F51-A78E-FFA51F1D587A}" WorkUnitID="{EF9CAAF7-6F56-4DD1-86CA-C27F5612F4BA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MusicSegment" ID="{9FE6A2EA-A3D1-4BF3-8B2F-7A9DFC71711B}">
+					<ChildrenList>
+						<Action Name="" ID="{78AF22B5-04FE-486B-8BEE-1552AA46A9D2}" ShortID="848272103">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUS_RotTR_Cue2_Safe_4bars_85BPM" ID="{5BB20974-2569-40EC-8BA5-30F256F5712F}" WorkUnitID="{06156056-661A-4ADD-A88B-B0C28B013748}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UserDefinedEvent" ID="{2ADD703F-6400-40F4-9D17-8C2C711484A7}">
+					<ChildrenList>
+						<Action Name="" ID="{52E528EA-473D-4108-B6C2-B66E0CDA7EA1}" ShortID="913103794">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Marker_Test_001" ID="{4BBEAE7D-D379-40FA-B0DB-6784953E9468}" WorkUnitID="{7F9055E0-6891-4C5D-8F27-27EE97BBFC7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

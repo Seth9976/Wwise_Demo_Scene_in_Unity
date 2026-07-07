@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7cce0135bfed16408d2332cd882d1df, type: 3}
+  m_Name: 38C34EC8-1D78-40F9-80BE-FA0A9445BB32
+  m_EditorClassIdentifier: 
+  objectName: PlayRoomTone
+  id: 2570281838
+  guid: 38C34EC8-1D78-40F9-80BE-FA0A9445BB32

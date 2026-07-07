@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="4862705" Type="Event" GUID="{39794F18-45E7-4115-8454-1ADC959AE1B7}" Language="English(US)" Hash="{13B7BDA8-C10C-AB52-F411-93A5108E43E1}">
+			<ObjectPath>PlayHello</ObjectPath>
+			<ShortName>PlayHello</ShortName>
+			<Path>Event/English(US)/PlayHello.bnk</Path>
+			<Media>
+				<File Id="88501119" Language="English(US)" Streaming="true" Location="Loose">
+					<ShortName>Hello.wav</ShortName>
+					<Path>Media/English(US)/88501119.wem</Path>
+					<CachePath>BC/{BCBCFD26-CBD9-B265-FD26-3E9EC4511E38}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4862705" Name="PlayHello" ObjectPath="\Events\Default Work Unit\PlayHello" GUID="{39794F18-45E7-4115-8454-1ADC959AE1B7}" DurationType="OneShot" DurationMin="1.1323129" DurationMax="1.1323129">
+					<MediaRefs>
+						<MediaRef Id="88501119"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="4862705" Type="Event" GUID="{39794F18-45E7-4115-8454-1ADC959AE1B7}" Language="French(CA)" Hash="{CF704E66-D6ED-D19B-D17C-86BD200DD937}">
+			<ObjectPath>PlayHello</ObjectPath>
+			<ShortName>PlayHello</ShortName>
+			<Path>Event/French(CA)/PlayHello.bnk</Path>
+			<Media>
+				<File Id="954516679" Language="French(CA)" Streaming="true" Location="Loose">
+					<ShortName>Hello.wav</ShortName>
+					<Path>Media/French(CA)/954516679.wem</Path>
+					<CachePath>50/{50B33002-136D-C571-B685-80B89DBFECD1}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4862705" Name="PlayHello" ObjectPath="\Events\Default Work Unit\PlayHello" GUID="{39794F18-45E7-4115-8454-1ADC959AE1B7}" DurationType="OneShot" DurationMin="1.1002948" DurationMax="1.1002948">
+					<MediaRefs>
+						<MediaRef Id="954516679"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="187046019" Type="Bus" GUID="{806059F8-0C0D-4641-969A-F0238927E3C4}" Language="SFX" Hash="{C666F549-08DE-659C-8081-40803705B134}">
+			<ObjectPath>LargeRoom</ObjectPath>
+			<ShortName>LargeRoom</ShortName>
+			<Path>Bus/LargeRoom.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1958819083" Name="SpatialAudio_Room_Medium" ObjectPath="\Effects\Default Work Unit\SpatialAudio_Room_Medium" GUID="{05B23C85-8D32-420B-B481-1199CA275683}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\LargeRoom" GUID="{806059F8-0C0D-4641-969A-F0238927E3C4}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1958819083"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="301909423" Type="Event" GUID="{C2FD42C9-BE2D-4539-A447-282A6F1B7F0F}" Language="SFX" Hash="{6CF453FD-07B5-2DD5-A99A-BF2D03ABC3D8}">
+			<ObjectPath>PlayCubeMovement</ObjectPath>
+			<ShortName>PlayCubeMovement</ShortName>
+			<Path>Event/PlayCubeMovement.bnk</Path>
+			<Media>
+				<File Id="838083720" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Sine60.wav</ShortName>
+					<Path>Media/838083720.wem</Path>
+					<CachePath>D9/{D96E6A38-7975-CCB1-B6A0-639CC9AC10AE}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="301909423" Name="PlayCubeMovement" ObjectPath="\Events\Default Work Unit\PlayCubeMovement" GUID="{C2FD42C9-BE2D-4539-A447-282A6F1B7F0F}" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="838083720"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="501015974" Name="CubeAcceleration" ObjectPath="\Game Parameters\Default Work Unit\CubeAcceleration" GUID="{2251B888-F22E-473D-AF73-0EAAEA49C9CF}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="529873620" Type="User" GUID="{DF50AA38-E4DB-4C2A-9F4E-6AAAB65635FE}" Language="SFX" Hash="{019B7F27-534F-CEE2-3BBF-0F6A2A13688A}">
+			<ObjectPath>\SoundBanks\Default Work Unit\DLC</ObjectPath>
+			<ShortName>DLC</ShortName>
+			<Path>DLC.bnk</Path>
+			<Media>
+				<File Id="652817804" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>imp_axe_stone_04.wav</ShortName>
+					<CachePath>03/{03D31927-E55B-D43C-F671-D0A091DC3035}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2496117889" Name="PlayImpactHigh" ObjectPath="\Events\DLCEvents\PlayImpactHigh" GUID="{BA2D1613-F7AF-4F0C-985A-1AAE322DEB4C}" DurationType="OneShot" DurationMin="0.08692744" DurationMax="0.08692744">
+					<MediaRefs>
+						<MediaRef Id="652817804"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1544558053" Name="PlayImpactLow" ObjectPath="\Events\DLCEvents\PlayImpactLow" GUID="{555BF982-DD99-4EC8-BAC1-93CF948770CB}" DurationType="OneShot" DurationMin="0.56160283" DurationMax="0.56160283">
+					<MediaRefs>
+						<MediaRef Id="652817804"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{5997CA7B-0098-903A-0407-1009B7123BB8}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1588715066" Name="Echoes_Linear" ObjectPath="\Effects\Factory Effects\Wwise Delay\Echoes_Linear" GUID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" LibName="Wwise Delay" LibId="6946819"/>
+					<Plugin Id="1958819083" Name="SpatialAudio_Room_Medium" ObjectPath="\Effects\Default Work Unit\SpatialAudio_Room_Medium" GUID="{05B23C85-8D32-420B-B481-1199CA275683}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2120793899" Name="SpatialAudio_Room_Small" ObjectPath="\Effects\Default Work Unit\SpatialAudio_Room_Small" GUID="{250BDA2B-258C-4196-8208-F9ADC65C7617}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2589936646" Name="TestVolumeMeter" ObjectPath="\Effects\AkIntegrationTests\TestVolumeMeter" GUID="{A69EF2EA-1D2B-49C2-818B-8E24AC604C3E}" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="2763016207" Name="ThirdPerson" ObjectPath="\Effects\Default Work Unit\ThirdPerson" GUID="{E938C7CC-37F2-4F79-837B-184C59431163}" LibName="Wwise Reflect" LibId="11206659"/>
+					<Plugin Id="3164629247" Name="Holy" ObjectPath="\Effects\Factory Effects\Wwise RoomVerb\Cathedrals\Holy" GUID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Devices\Default Work Unit\No_Output" GUID="{B70DEED6-A809-454C-877E-4203E9BBF06A}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Devices\Default Work Unit\System" GUID="{1B52A9AD-EDA1-4EAE-9D73-FEC868B8024F}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="2246998526" Name="Main Audio Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2589936646"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="187046019" Name="LargeRoom" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\LargeRoom" GUID="{806059F8-0C0D-4641-969A-F0238927E3C4}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1958819083"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2763016207" Name="ThirdPerson" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\ThirdPerson" GUID="{84EECBDC-662D-4708-BB9F-0683B98CD0D7}" MaxAttenuation="50">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2763016207"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2933838247" Name="SmallRoom" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\SmallRoom" GUID="{CA2F5AA7-6CD3-4424-B969-E5878EAEA14A}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2120793899"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3050928690" Name="BlueCave" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\BlueCave" GUID="{A3FFACF0-F44B-47E1-91BF-E2F9300D4379}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3822919377" Name="RedCave" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\RedCave" GUID="{A4489993-6B89-47D1-A71D-D39E36628F0A}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1588715066"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="501015974" Name="CubeAcceleration" ObjectPath="\Game Parameters\Default Work Unit\CubeAcceleration" GUID="{2251B888-F22E-473D-AF73-0EAAEA49C9CF}"/>
+				<GameParameter Id="772397858" Name="TestCurrentVolume" ObjectPath="\Game Parameters\AkIntegrationTests\TestCurrentVolume" GUID="{D0BAF9D1-09D6-4D4A-AD5E-4F1733EA3527}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3729505769" Name="TimeOfDay" ObjectPath="\States\Default Work Unit\TimeOfDay" GUID="{48141502-3F24-4AAD-85F4-CA2D0599310E}">
+					<States>
+						<State Id="311764537" Name="Day" ObjectPath="\States\Default Work Unit\TimeOfDay\Day" GUID="{37562C21-2A11-4348-A33F-35AFEFB6D57E}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\TimeOfDay\None" GUID="{91EE2462-7621-4011-9261-B1948D5F8BB5}"/>
+						<State Id="1011622525" Name="Night" ObjectPath="\States\Default Work Unit\TimeOfDay\Night" GUID="{67761A2F-F203-4CF4-9BC2-2487568B3843}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="684570577" Name="Footstep_Material" ObjectPath="\Switches\Default Work Unit\Footstep_Material" GUID="{61D6CB0F-CF46-4352-9850-BD6CD697B520}">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Footstep_Material\Wood" GUID="{52D22376-67AF-4178-99E8-6FC05D93D402}"/>
+						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\Footstep_Material\Gravel" GUID="{2462CFC6-937E-4F74-91CE-8415CD339153}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Footstep_Material\Dirt" GUID="{B000CEC9-742D-48FE-80DA-FFFBE08CBE0D}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Footstep_Material\Grass" GUID="{0F7D5FEE-C178-4720-86A7-6E8D01DCC9F4}"/>
+						<Switch Id="4248742144" Name="Nothing" ObjectPath="\Switches\Default Work Unit\Footstep_Material\Nothing" GUID="{E7C235DA-F11A-4748-986B-FE284F7B2A09}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Brick" GUID="{B086A5A9-F204-4C53-A838-BDB18B18F6D6}" Color="8">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Mountain" GUID="{C5933731-001A-4AB4-98DD-9B033A8C8EAB}">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Concrete" GUID="{5CF81C00-2896-4AE0-AF7C-3080BDABA682}" Color="27">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Deep" GUID="{5246478E-C5DA-4E0C-A0DE-C98D1479529A}" Color="9">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Anechoic" GUID="{8B0AC232-02E2-4EDE-BEAC-FDD1A900E3ED}" Color="13">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Fabric" GUID="{8381D532-DB6E-4EED-A7A3-BC7B0A0B8BA8}" Color="4">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood" GUID="{1FFFBC96-6FE7-489E-BA6C-7C14A71391AE}" Color="7">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Carpet" GUID="{34227589-DC56-4260-96C4-B9F4B669092B}" Color="17">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Tile" GUID="{A882DAC4-132A-47B7-BA9D-B9907BA29CC0}" Color="16">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Curtains" GUID="{F8E69E33-5C97-4968-B508-A1535F2D66E8}" Color="3">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Cork_Tiles" GUID="{30D2C919-925F-4143-8906-3DBB3C4AE5E2}" Color="19">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Drywall" GUID="{68A4E3F4-4C0B-4687-A8B8-A84DB93DBC8F}" Color="15">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Acoustic_Banner" GUID="{2F2D53F2-DACC-408E-8B88-98B1B52A26D6}" Color="10">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Bright" GUID="{7B85D1E5-C1A2-4E63-9A13-CEC54B641ADC}" Color="20">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+		<SoundBank Id="1866025847" Type="Event" GUID="{44E3DE84-B37A-44BD-864A-2261F7CCBEFA}" Language="SFX" Hash="{5E9EE4E7-1DF6-B6DC-79CB-B549251FFF64}">
+			<ObjectPath>Footstep</ObjectPath>
+			<ShortName>Footstep</ShortName>
+			<Path>Event/Footstep.bnk</Path>
+			<Media>
+				<File Id="159580771" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\WoodSolid\Footstep_Walking_Hardwood_01.wav</ShortName>
+					<Path>Media/159580771.wem</Path>
+					<CachePath>B7/{B7F1DC44-F0CA-6498-14E1-6A753195EE7B}.wem</CachePath>
+				</File>
+				<File Id="392099187" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\Gravel\AK_FS_Run_Gravel_03.wav</ShortName>
+					<Path>Media/392099187.wem</Path>
+					<CachePath>B2/{B235CF3C-6D6C-6D61-1422-308E4D91FA55}.wem</CachePath>
+				</File>
+				<File Id="443849517" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\Grass\grass_02.wav</ShortName>
+					<Path>Media/443849517.wem</Path>
+					<CachePath>8A/{8A4A0BD0-287A-F09F-0021-AAC71C091946}.wem</CachePath>
+				</File>
+				<File Id="444882911" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\Dirt\FS_Dirt_03.wav</ShortName>
+					<Path>Media/444882911.wem</Path>
+					<CachePath>83/{8337B64A-27EF-7142-2BEE-C45C1F85F774}.wem</CachePath>
+				</File>
+				<File Id="459922548" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\WoodSolid\Footstep_Walking_Hardwood_05.wav</ShortName>
+					<Path>Media/459922548.wem</Path>
+					<CachePath>9C/{9CCF7E97-D294-233C-8BFF-26CC5814AF08}.wem</CachePath>
+				</File>
+				<File Id="485521764" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\Grass\grass_04.wav</ShortName>
+					<Path>Media/485521764.wem</Path>
+					<CachePath>94/{9466342D-0B85-6B79-1D6F-6502B02013DA}.wem</CachePath>
+				</File>
+				<File Id="525288719" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\Dirt\FS_Dirt_04.wav</ShortName>
+					<Path>Media/525288719.wem</Path>
+					<CachePath>89/{89086F8A-88C6-9B7B-C4BD-189701550ED1}.wem</CachePath>
+				</File>
+				<File Id="609197767" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\WoodSolid\Footstep_Walking_Hardwood_04.wav</ShortName>
+					<Path>Media/609197767.wem</Path>
+					<CachePath>60/{603B1B7D-0E4D-13D5-F68B-29F1C5E43FBC}.wem</CachePath>
+				</File>
+				<File Id="631840771" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\Gravel\AK_FS_Run_Gravel_01.wav</ShortName>
+					<Path>Media/631840771.wem</Path>
+					<CachePath>83/{83C57893-6CE6-178A-7E8A-B0B2199E0D39}.wem</CachePath>
+				</File>
+				<File Id="654689184" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\Grass\grass_03.wav</ShortName>
+					<Path>Media/654689184.wem</Path>
+					<CachePath>4F/{4F453A63-7C6E-1F38-989A-A34B2F940304}.wem</CachePath>
+				</File>
+				<File Id="703981150" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\Grass\grass_01.wav</ShortName>
+					<Path>Media/703981150.wem</Path>
+					<CachePath>C4/{C4DF5D98-088B-D9A8-E910-D7432B5C7225}.wem</CachePath>
+				</File>
+				<File Id="733953183" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\WoodSolid\Footstep_Walking_Hardwood_02.wav</ShortName>
+					<Path>Media/733953183.wem</Path>
+					<CachePath>A0/{A0B1F58D-2201-4640-538B-5B57059BB159}.wem</CachePath>
+				</File>
+				<File Id="774920062" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\WoodSolid\Footstep_Walking_Hardwood_03.wav</ShortName>
+					<Path>Media/774920062.wem</Path>
+					<CachePath>B1/{B1793CF5-694D-10F0-94E9-FC00040716F6}.wem</CachePath>
+				</File>
+				<File Id="802162658" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\Gravel\AK_FS_Run_Gravel_02.wav</ShortName>
+					<Path>Media/802162658.wem</Path>
+					<CachePath>62/{62143F0A-6275-77B9-EC83-F35DCD737CFD}.wem</CachePath>
+				</File>
+				<File Id="810749029" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\Dirt\FS_Dirt_01.wav</ShortName>
+					<Path>Media/810749029.wem</Path>
+					<CachePath>59/{59AC0DFE-916E-CE3C-C6CF-DF163F49389B}.wem</CachePath>
+				</File>
+				<File Id="847372891" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Footsteps\Dirt\FS_Dirt_02.wav</ShortName>
+					<Path>Media/847372891.wem</Path>
+					<CachePath>76/{76AC990A-6D7B-0922-BCA8-0CAED5DD3269}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" GUID="{44E3DE84-B37A-44BD-864A-2261F7CCBEFA}" DurationType="OneShot" DurationMin="0.2260625" DurationMax="0.49170068">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="684570577" Id="2058049674" GUID="{52D22376-67AF-4178-99E8-6FC05D93D402}"/>
+							<MediaRefs>
+								<MediaRef Id="159580771"/>
+								<MediaRef Id="459922548"/>
+								<MediaRef Id="609197767"/>
+								<MediaRef Id="733953183"/>
+								<MediaRef Id="774920062"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="684570577" Id="2185786256" GUID="{2462CFC6-937E-4F74-91CE-8415CD339153}"/>
+							<MediaRefs>
+								<MediaRef Id="392099187"/>
+								<MediaRef Id="631840771"/>
+								<MediaRef Id="802162658"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="684570577" Id="2195636714" GUID="{B000CEC9-742D-48FE-80DA-FFFBE08CBE0D}"/>
+							<MediaRefs>
+								<MediaRef Id="444882911"/>
+								<MediaRef Id="525288719"/>
+								<MediaRef Id="810749029"/>
+								<MediaRef Id="847372891"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="684570577" Id="4248645337" GUID="{0F7D5FEE-C178-4720-86A7-6E8D01DCC9F4}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="443849517"/>
+								<MediaRef Id="485521764"/>
+								<MediaRef Id="654689184"/>
+								<MediaRef Id="703981150"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="684570577" Name="Footstep_Material" ObjectPath="\Switches\Default Work Unit\Footstep_Material" GUID="{61D6CB0F-CF46-4352-9850-BD6CD697B520}">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Footstep_Material\Wood" GUID="{52D22376-67AF-4178-99E8-6FC05D93D402}"/>
+						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\Footstep_Material\Gravel" GUID="{2462CFC6-937E-4F74-91CE-8415CD339153}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Footstep_Material\Dirt" GUID="{B000CEC9-742D-48FE-80DA-FFFBE08CBE0D}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Footstep_Material\Grass" GUID="{0F7D5FEE-C178-4720-86A7-6E8D01DCC9F4}"/>
+						<Switch Id="4248742144" Name="Nothing" ObjectPath="\Switches\Default Work Unit\Footstep_Material\Nothing" GUID="{E7C235DA-F11A-4748-986B-FE284F7B2A09}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2107159840" Type="Event" GUID="{82661441-FB78-4E27-BD9F-45281C6F3D41}" Language="SFX" Hash="{54444DC5-693E-AF9D-8C0B-7D5674A28DAF}">
+			<ObjectPath>Play_BasicTest</ObjectPath>
+			<ShortName>Play_BasicTest</ShortName>
+			<Path>Event/Play_BasicTest.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="489272920" Name="Wwise Synth One" ObjectPath="\Containers\AkIntegrationTests\BasicTest\Wwise Synth One" GUID="{69DEF5E6-0558-4177-A100-9B81813A70D1}" LibName="Wwise Synth One" LibId="9699330"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="2589936646" Name="TestVolumeMeter" ObjectPath="\Effects\AkIntegrationTests\TestVolumeMeter" GUID="{A69EF2EA-1D2B-49C2-818B-8E24AC604C3E}" LibName="Wwise Meter" LibId="8454147"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="2107159840" Name="Play_BasicTest" ObjectPath="\Events\AkIntegrationTests\Play_BasicTest" GUID="{82661441-FB78-4E27-BD9F-45281C6F3D41}" DurationType="Unknown">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="489272920"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="2589936646"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2341029961" Type="Event" GUID="{14B12237-A49A-4F53-A194-5727E8894F74}" Language="SFX" Hash="{BE229CB5-EB81-4589-353D-C2398A560540}">
+			<ObjectPath>PlayDialogue</ObjectPath>
+			<ShortName>PlayDialogue</ShortName>
+			<Path>Event/PlayDialogue.bnk</Path>
+			<Media>
+				<File Id="51120730" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Voices\English(US)\Discussion.wav</ShortName>
+					<Path>Media/51120730.wem</Path>
+					<CachePath>30/{3058482C-6509-2A38-A516-BF82F33DBAC5}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2341029961" Name="PlayDialogue" ObjectPath="\Events\Default Work Unit\PlayDialogue" GUID="{14B12237-A49A-4F53-A194-5727E8894F74}" MaxAttenuation="50" DurationType="OneShot" DurationMin="104.16072" DurationMax="104.16072">
+					<MediaRefs>
+						<MediaRef Id="51120730"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2763016207" Name="ThirdPerson" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\ThirdPerson" GUID="{84EECBDC-662D-4708-BB9F-0683B98CD0D7}"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2524914122" Type="Event" GUID="{9FE6A2EA-A3D1-4BF3-8B2F-7A9DFC71711B}" Language="SFX" Hash="{EF27912A-59D2-B4E6-149A-AE0558F6D941}">
+			<ObjectPath>Play_MusicSegment</ObjectPath>
+			<ShortName>Play_MusicSegment</ShortName>
+			<Path>Event/Play_MusicSegment.bnk</Path>
+			<Media>
+				<File Id="482819028" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MUS_RotTR_Cue2_Safe_4bars_85BPM.wav</ShortName>
+					<Path>Media/482819028.wem</Path>
+					<CachePath>5C/{5C34BE9C-0E26-E3BF-0F5F-CA2019D70389}.wem</CachePath>
+				</File>
+				<File Id="487440336" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MUS_RotTR_Cue2_Stinger_85BPM.wav</ShortName>
+					<Path>Media/487440336.wem</Path>
+					<CachePath>46/{465106E7-14E2-A40F-D60E-C0003DE030DC}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2524914122" Name="Play_MusicSegment" ObjectPath="\Events\Default Work Unit\Play_MusicSegment" GUID="{9FE6A2EA-A3D1-4BF3-8B2F-7A9DFC71711B}" DurationType="OneShot" DurationMin="25.411772" DurationMax="25.411772">
+					<MediaRefs>
+						<MediaRef Id="482819028"/>
+						<MediaRef Id="487440336"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<Triggers>
+				<Trigger Id="78360149" Name="Stinger" ObjectPath="\Triggers\Default Work Unit\Stinger" GUID="{B60A3FEE-F59C-4AC8-8993-6A0EE735009F}"/>
+			</Triggers>
+		</SoundBank>
+		<SoundBank Id="2570281838" Type="Event" GUID="{38C34EC8-1D78-40F9-80BE-FA0A9445BB32}" Language="SFX" Hash="{F0B01D03-A54F-8C6E-706A-10C62D7DA131}">
+			<ObjectPath>PlayRoomTone</ObjectPath>
+			<ShortName>PlayRoomTone</ShortName>
+			<Path>Event/PlayRoomTone.bnk</Path>
+			<Media>
+				<File Id="633107412" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Ambience_40.wav</ShortName>
+					<Path>Media/633107412.wem</Path>
+					<CachePath>AC/{AC5ACE1C-1C55-FAB3-C19D-C0CBF3BB0439}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2570281838" Name="PlayRoomTone" ObjectPath="\Events\Default Work Unit\PlayRoomTone" GUID="{38C34EC8-1D78-40F9-80BE-FA0A9445BB32}" MaxAttenuation="20" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="633107412"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2656110914" Type="User" GUID="{0DAE81CF-A07D-4497-8C4E-2252DCE1B655}" Language="SFX" Hash="{6AF96E02-684F-F55B-2724-D44D9E33E35E}">
+			<ObjectPath>\SoundBanks\Default Work Unit\UserDefinedSoundBank</ObjectPath>
+			<ShortName>UserDefinedSoundBank</ShortName>
+			<Path>UserDefinedSoundBank.bnk</Path>
+			<Media>
+				<File Id="273222379" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Marker_Test_001.wav</ShortName>
+					<CachePath>A0/{A006924F-C8E7-2072-FCAA-B65203653017}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2473335609" Name="UserDefinedEvent" ObjectPath="\Events\Default Work Unit\UserDefinedEvent" GUID="{2ADD703F-6400-40F4-9D17-8C2C711484A7}" MaxAttenuation="10" DurationType="OneShot" DurationMin="9.768979" DurationMax="9.768979">
+					<MediaRefs>
+						<MediaRef Id="273222379"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2763016207" Type="Bus" GUID="{84EECBDC-662D-4708-BB9F-0683B98CD0D7}" Language="SFX" Hash="{6E65301C-31A5-8F35-B855-B5DB3E54DC49}">
+			<ObjectPath>ThirdPerson</ObjectPath>
+			<ShortName>ThirdPerson</ShortName>
+			<Path>Bus/ThirdPerson.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2763016207" Name="ThirdPerson" ObjectPath="\Effects\Default Work Unit\ThirdPerson" GUID="{E938C7CC-37F2-4F79-837B-184C59431163}" LibName="Wwise Reflect" LibId="11206659"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="2763016207" Name="ThirdPerson" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\ThirdPerson" GUID="{84EECBDC-662D-4708-BB9F-0683B98CD0D7}" MaxAttenuation="50">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2763016207"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="2933838247" Type="Bus" GUID="{CA2F5AA7-6CD3-4424-B969-E5878EAEA14A}" Language="SFX" Hash="{BC02BA3D-B93D-5496-C6B3-8CF21B395682}">
+			<ObjectPath>SmallRoom</ObjectPath>
+			<ShortName>SmallRoom</ShortName>
+			<Path>Bus/SmallRoom.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2120793899" Name="SpatialAudio_Room_Small" ObjectPath="\Effects\Default Work Unit\SpatialAudio_Room_Small" GUID="{250BDA2B-258C-4196-8208-F9ADC65C7617}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="2933838247" Name="SmallRoom" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\SmallRoom" GUID="{CA2F5AA7-6CD3-4424-B969-E5878EAEA14A}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2120793899"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="3050928690" Type="Bus" GUID="{A3FFACF0-F44B-47E1-91BF-E2F9300D4379}" Language="SFX" Hash="{D09A3E44-F7EB-AF8E-60D8-4799D55C4C73}">
+			<ObjectPath>BlueCave</ObjectPath>
+			<ShortName>BlueCave</ShortName>
+			<Path>Bus/BlueCave.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3164629247" Name="Holy" ObjectPath="\Effects\Factory Effects\Wwise RoomVerb\Cathedrals\Holy" GUID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="3050928690" Name="BlueCave" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\BlueCave" GUID="{A3FFACF0-F44B-47E1-91BF-E2F9300D4379}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="3660193989" Type="Event" GUID="{E96687EC-1239-4B82-87EE-CAD782698541}" Language="SFX" Hash="{E0D667AD-4421-10BE-8047-AF55E96390DA}">
+			<ObjectPath>PlayImpact</ObjectPath>
+			<ShortName>PlayImpact</ShortName>
+			<Path>Event/PlayImpact.bnk</Path>
+			<Media>
+				<File Id="652817804" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>imp_axe_stone_04.wav</ShortName>
+					<Path>Media/652817804.wem</Path>
+					<CachePath>03/{03D31927-E55B-D43C-F671-D0A091DC3035}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3660193989" Name="PlayImpact" ObjectPath="\Events\Default Work Unit\PlayImpact" GUID="{E96687EC-1239-4B82-87EE-CAD782698541}" DurationType="OneShot" DurationMin="0.34770975" DurationMax="0.34770975">
+					<MediaRefs>
+						<MediaRef Id="652817804"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3822919377" Type="Bus" GUID="{A4489993-6B89-47D1-A71D-D39E36628F0A}" Language="SFX" Hash="{B7AC07A9-3DC9-6CF1-746F-A7D2E3D6643E}">
+			<ObjectPath>RedCave</ObjectPath>
+			<ShortName>RedCave</ShortName>
+			<Path>Bus/RedCave.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1588715066" Name="Echoes_Linear" ObjectPath="\Effects\Factory Effects\Wwise Delay\Echoes_Linear" GUID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" LibName="Wwise Delay" LibId="6946819"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="3822919377" Name="RedCave" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\RedCave" GUID="{A4489993-6B89-47D1-A71D-D39E36628F0A}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1588715066"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="3875076402" Type="Event" GUID="{E1495726-08FA-4ADC-8C53-C1051E5618C1}" Language="SFX" Hash="{AD4F9FBB-50D8-6BE9-D32A-0B3AA293ACCD}">
+			<ObjectPath>PlaySubtitles</ObjectPath>
+			<ShortName>PlaySubtitles</ShortName>
+			<Path>Event/PlaySubtitles.bnk</Path>
+			<Media>
+				<File Id="273222379" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Marker_Test_001.wav</ShortName>
+					<Path>Media/273222379.wem</Path>
+					<CachePath>A0/{A006924F-C8E7-2072-FCAA-B65203653017}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3875076402" Name="PlaySubtitles" ObjectPath="\Events\Default Work Unit\PlaySubtitles" GUID="{E1495726-08FA-4ADC-8C53-C1051E5618C1}" MaxAttenuation="10" DurationType="OneShot" DurationMin="9.768979" DurationMax="9.768979">
+					<MediaRefs>
+						<MediaRef Id="273222379"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{59A9E8C9-DD70-4718-CAAA-D0C0A55A6C4C}</FileHash>
+</SoundBanksInfo>

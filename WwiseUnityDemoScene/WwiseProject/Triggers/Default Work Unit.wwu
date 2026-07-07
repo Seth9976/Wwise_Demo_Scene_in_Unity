@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{499FC53E-F5BD-485E-A3EF-DF6B0C55B1D7}" SchemaVersion="133">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{499FC53E-F5BD-485E-A3EF-DF6B0C55B1D7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Stinger" ID="{B60A3FEE-F59C-4AC8-8993-6A0EE735009F}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

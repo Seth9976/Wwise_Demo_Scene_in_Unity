@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CAD3E5A5-0D7B-40D2-BBB3-2D84129754E0}" SchemaVersion="133">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{CAD3E5A5-0D7B-40D2-BBB3-2D84129754E0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{1B52A9AD-EDA1-4EAE-9D73-FEC868B8024F}" WorkUnitID="{193E9AA8-34C7-4C1C-816D-043C7B2195DF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="RedCave" ID="{A4489993-6B89-47D1-A71D-D39E36628F0A}">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{39A8F1A2-EFBD-492F-A386-8E7A2207AF12}" ShortID="750933696">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+												<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="BlueCave" ID="{A3FFACF0-F44B-47E1-91BF-E2F9300D4379}">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{2ECF52FB-37F0-4713-8156-3294AB189F5B}" ShortID="179773547">
+										<ReferenceList>
+											<Reference Name="Effect" CompanyID="4095" PluginID="65535" PluginType="15">
+												<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+								<ObjectList Name="Effects" Platform="iOS">
+									<EffectSlot Name="" ID="{350D601A-EEDA-4784-9902-CE21FCB8287A}" ShortID="328914292">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+												<ObjectRef Name="Medium_Room1" ID="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+									<EffectSlot Name="" ID="{BFD87357-82FC-4D80-89D3-3E772E4C2267}" ShortID="856714258"/>
+									<EffectSlot Name="" ID="{4D9F8331-C095-4EEB-825A-CE44598D38A6}" ShortID="684399963"/>
+									<EffectSlot Name="" ID="{DD07A6D5-C0E5-45FB-B812-DC45437E823A}" ShortID="14059266"/>
+								</ObjectList>
+								<ObjectList Name="Effects" Platform="Android">
+									<EffectSlot Name="" ID="{5CC1F1B7-19B4-4790-9C86-35C35C878882}" ShortID="215403586">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+												<ObjectRef Name="Medium_Room1" ID="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+									<EffectSlot Name="" ID="{3E0BC9F9-3F94-4B97-88AC-4E52C2480EA1}" ShortID="954188116"/>
+									<EffectSlot Name="" ID="{F179C00A-227B-4856-8759-1879A9EDACA9}" ShortID="754514285"/>
+									<EffectSlot Name="" ID="{63015B8C-25CD-4A41-9575-8ACEF99C7198}" ShortID="185846454"/>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="ThirdPerson" ID="{84EECBDC-662D-4708-BB9F-0683B98CD0D7}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>16641</Value>
+									</ValueList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="ThirdPerson" ID="{6D6E94B6-7885-482F-B42C-9D4F886A0F9F}" WorkUnitID="{86534B1F-D48D-4C80-9DEC-CA8BD197B5C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{B5C2D1E6-20D3-4B78-84A0-D2B1B8497667}" ShortID="7746079">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">
+												<ObjectRef Name="ThirdPerson" ID="{E938C7CC-37F2-4F79-837B-184C59431163}" WorkUnitID="{CFB1ECBF-60A4-4EF0-B778-12292D1900CA}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="SmallRoom" ID="{CA2F5AA7-6CD3-4424-B969-E5878EAEA14A}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3584</Value>
+									</ValueList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{109C6FAC-B71A-49BE-A276-CB50517F979B}" ShortID="320059963">
+										<ReferenceList>
+											<Reference Name="Effect" CompanyID="4095" PluginID="65535" PluginType="15">
+												<ObjectRef Name="SpatialAudio_Room_Small" ID="{250BDA2B-258C-4196-8208-F9ADC65C7617}" WorkUnitID="{CFB1ECBF-60A4-4EF0-B778-12292D1900CA}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="LargeRoom" ID="{806059F8-0C0D-4641-969A-F0238927E3C4}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3584</Value>
+									</ValueList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{A792A578-C816-4679-8D87-FFCF3EB414CC}" ShortID="758046221">
+										<ReferenceList>
+											<Reference Name="Effect" CompanyID="4095" PluginID="65535" PluginType="15">
+												<ObjectRef Name="SpatialAudio_Room_Medium" ID="{05B23C85-8D32-420B-B481-1199CA275683}" WorkUnitID="{CFB1ECBF-60A4-4EF0-B778-12292D1900CA}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{0642A1CC-F7D4-40EE-A7B8-EED59F6D4903}" ShortID="277066312">
+								<ReferenceList>
+									<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+										<ObjectRef Name="TestVolumeMeter" ID="{A69EF2EA-1D2B-49C2-818B-8E24AC604C3E}" WorkUnitID="{172555C5-3A81-4E55-AB2B-5A445DF6FC11}"/>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

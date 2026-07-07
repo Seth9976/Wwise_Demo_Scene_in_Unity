@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1544558053	PlayImpactLow			\DLCEvents\PlayImpactLow	
+	2496117889	PlayImpactHigh			\DLCEvents\PlayImpactHigh	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	652817804	imp_axe_stone_low	.cache\03\{03D31927-E55B-D43C-F671-D0A091DC3035}.wem		\Containers\DLCSounds\imp_axe_stone_low		30764
+

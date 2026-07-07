@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4C6B62D4-848C-4EB5-89EE-C784EAA0547B}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="DLCEvents" ID="{4C6B62D4-848C-4EB5-89EE-C784EAA0547B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayImpactHigh" ID="{BA2D1613-F7AF-4F0C-985A-1AAE322DEB4C}">
+					<ChildrenList>
+						<Action Name="" ID="{264B5501-59C5-42E1-AF98-6B1D7A7D7699}" ShortID="426093954">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="imp_axe_stone_high" ID="{295A24DC-1ED2-46BA-BEDC-A23C59B75555}" WorkUnitID="{F917EFBB-A362-4965-A9C8-B6A373D0FA65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayImpactLow" ID="{555BF982-DD99-4EC8-BAC1-93CF948770CB}">
+					<ChildrenList>
+						<Action Name="" ID="{ECAA7A79-07C4-44A6-8058-D0C9E8D6D497}" ShortID="589123862">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="imp_axe_stone_low" ID="{AE9C9BAB-5BFA-4AB6-9015-696F17D24217}" WorkUnitID="{F917EFBB-A362-4965-A9C8-B6A373D0FA65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

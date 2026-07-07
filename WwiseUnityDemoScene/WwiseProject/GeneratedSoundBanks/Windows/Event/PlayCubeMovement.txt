@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	301909423	PlayCubeMovement			\Default Work Unit\PlayCubeMovement	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	501015974	CubeAcceleration			\Default Work Unit\CubeAcceleration	
+

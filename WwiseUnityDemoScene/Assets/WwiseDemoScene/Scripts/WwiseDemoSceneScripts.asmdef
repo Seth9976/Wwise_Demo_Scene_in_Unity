@@ -1,0 +1,20 @@
+{
+    "name": "AK.Wwise.DemoSceneScripts",
+    "rootNamespace": "",
+    "references": [
+        "Ak.Wwise.Api.WAAPI",
+        "AK.Wwise.Unity.API",
+        "AK.Wwise.Unity.API.Editor",
+        "AK.Wwise.Unity.MonoBehaviour",
+        "AK.Wwise.Unity.API.WwiseTypes"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

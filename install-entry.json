@@ -1,0 +1,44 @@
+{
+    "bundle": {
+        "id": "unity-demo-scene.2025_1_8_4193",
+        "type": "wwise",
+        "name": "",
+        "tag": "",
+        "description": "",
+        "vendor": "",
+        "version": {
+            "year": 2025,
+            "major": 1,
+            "minor": "8",
+            "build": 4193
+        },
+        "labels": [],
+        "links": [],
+        "productDependentData": {},
+        "documentation": [],
+        "image": "",
+        "redistributables": [],
+        "eulas": [],
+        "groups": [],
+        "files": []
+    },
+    "targetDir": "C:\\Audiokinetic\\Wwise_Demo_Scene_in_Unity_2025.1.8.4193",
+    "installType": "normal",
+    "installed": {
+        "groups": [
+            {
+                "id": "Packages",
+                "valueId": "UnityDemoScene"
+            }
+        ],
+        "files": [
+            "Unity.DemoScene.tar.xz",
+            "UnityDocumentation.DemoScene.tar.xz"
+        ],
+        "date": 1783287788280
+    },
+    "children": [],
+    "unpackedFiles": [
+        "images\\unity-demo-scene.2025_1_8_4193.png"
+    ]
+}

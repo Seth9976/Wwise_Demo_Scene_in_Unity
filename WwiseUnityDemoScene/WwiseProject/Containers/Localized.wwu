@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EF9CAAF7-6F56-4DD1-86CA-C27F5612F4BA}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Localized" ID="{EF9CAAF7-6F56-4DD1-86CA-C27F5612F4BA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Hello" ID="{0F30A63A-9C8F-4F51-A78E-FFA51F1D587A}" ShortID="1039957025">
+					<PropertyList>
+						<Property Name="EnableDiffraction" Type="bool" Value="False"/>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-16</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40E2D937-3626-46EA-9FEE-B10E15F6FDDF}"/>
+						</Reference>
+						<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAD3E5A5-0D7B-40D2-BBB3-2D84129754E0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Hello" ID="{9750D97D-AF6B-453B-A7BB-E5F2682F9115}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+							</PropertyList>
+							<Language>English(US)</Language>
+							<AudioFile>Hello.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="88501119"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="Hello" ID="{144902EB-D7BA-4923-A832-C9B647258218}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+								<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+							</PropertyList>
+							<Language>French(CA)</Language>
+							<AudioFile>Hello.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="954516679"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Hello" ID="{9750D97D-AF6B-453B-A7BB-E5F2682F9115}" Platform="Linked"/>
+						<ActiveSource Name="Hello" ID="{144902EB-D7BA-4923-A832-C9B647258218}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

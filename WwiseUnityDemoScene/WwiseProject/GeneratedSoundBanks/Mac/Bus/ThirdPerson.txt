@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2763016207	ThirdPerson			\Default Work Unit\Main Audio Bus\ThirdPerson	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2763016207	ThirdPerson	Wwise Reflect			
+

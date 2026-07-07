@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	187046019	LargeRoom			\Default Work Unit\Main Audio Bus\LargeRoom	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1958819083	SpatialAudio_Room_Medium	Wwise RoomVerb			When using RoomVerb with Spatial Audio rooms, we generatlly want to disable both early reflections (they wil be handled by Reflect) and the dry output (it is handled by the direct path)
+

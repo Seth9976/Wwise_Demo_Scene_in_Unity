@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{193E9AA8-34C7-4C1C-816D-043C7B2195DF}" SchemaVersion="133">
+	<Devices>
+		<WorkUnit Name="Default Work Unit" ID="{193E9AA8-34C7-4C1C-816D-043C7B2195DF}" PersistMode="Standalone">
+			<ChildrenList>
+				<AudioDevice Name="System" ID="{1B52A9AD-EDA1-4EAE-9D73-FEC868B8024F}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+					<PropertyList>
+						<Property Name="AllowSystemAudioObjects" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</AudioDevice>
+				<AudioDevice Name="No_Output" ID="{B70DEED6-A809-454C-877E-4203E9BBF06A}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
+				<AudioDevice Name="DVR" ID="{14025819-186E-4648-BB27-1D477B10A32F}" PluginName="DVR Bypass" CompanyID="0" PluginID="175" PluginType="7"/>
+				<AudioDevice Name="Communication" ID="{21ED38DD-4A4C-47AA-9A7C-B33DD9DB88B4}" PluginName="Communication" CompanyID="0" PluginID="176" PluginType="7"/>
+				<AudioDevice Name="Controller_Headphones" ID="{54124C86-257B-447A-A671-4B8CC530F16B}" PluginName="Controller Headphones" CompanyID="0" PluginID="177" PluginType="7"/>
+				<AudioDevice Name="Controller_Speaker" ID="{2F8AC0FA-6FE4-4419-A35D-2DF92946DDD9}" PluginName="Controller Speaker" CompanyID="0" PluginID="179" PluginType="7"/>
+				<AudioDevice Name="Auxiliary" ID="{E7E42CE1-0AA1-478C-A564-0428A0424B5B}" PluginName="Auxiliary" CompanyID="0" PluginID="180" PluginType="7"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Devices>
+</WwiseDocument>

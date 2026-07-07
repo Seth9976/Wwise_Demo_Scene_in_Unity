@@ -1,0 +1,74 @@
+{
+ "PluginInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "PluginLibs": [
+   {
+    "LibName": "Wwise Delay",
+    "LibId": "6946819",
+    "Type": "Effect",
+    "DLL": "AkDelay",
+    "StaticLib": "AkDelayFX"
+   },
+   {
+    "LibName": "Wwise RoomVerb",
+    "LibId": "7733251",
+    "Type": "Effect",
+    "DLL": "AkRoomVerb",
+    "StaticLib": "AkRoomVerbFX"
+   },
+   {
+    "LibName": "Wwise Meter",
+    "LibId": "8454147",
+    "Type": "Effect",
+    "DLL": "AkMeter",
+    "StaticLib": "AkMeterFX"
+   },
+   {
+    "LibName": "Wwise Synth One",
+    "LibId": "9699330",
+    "Type": "Source",
+    "DLL": "AkSynthOne",
+    "StaticLib": "AkSynthOneSource"
+   },
+   {
+    "LibName": "Wwise Reflect",
+    "LibId": "11206659",
+    "Type": "Effect",
+    "DLL": "AkReflect",
+    "StaticLib": "AkReflectFX"
+   },
+   {
+    "LibName": "System",
+    "LibId": "11403271",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "Communication",
+    "LibId": "11534343",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "Controller Headphones",
+    "LibId": "11599879",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "Controller Speaker",
+    "LibId": "11730951",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "Auxiliary",
+    "LibId": "11796487",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "No Output",
+    "LibId": "11862023",
+    "Type": "AudioDevice"
+   }
+  ],
+  "FileHash": "{E7DD74FD-7115-B12D-1061-75C7FCD31EF5}"
+ }
+}

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CFB1ECBF-60A4-4EF0-B778-12292D1900CA}" SchemaVersion="133">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{CFB1ECBF-60A4-4EF0-B778-12292D1900CA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="SpatialAudio_Room_Small" ID="{250BDA2B-258C-4196-8208-F9ADC65C7617}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<Comment>When using RoomVerb with Spatial Audio rooms, we generatlly want to disable both early reflections (they wil be handled by Reflect) and the dry output (it is handled by the direct path)</Comment>
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="0.6"/>
+						<Property Name="Density" Type="Real32" Value="84"/>
+						<Property Name="Diffusion" Type="Real32" Value="75"/>
+						<Property Name="DryLevel" Type="Real32" Value="-96"/>
+						<Property Name="ERLevel" Type="Real32" Value="-96"/>
+						<Property Name="ERPattern" Type="int32" Value="22"/>
+						<Property Name="EnableEarlyReflections" Type="bool" Value="False"/>
+						<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+						<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+						<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+						<Property Name="HFDamping" Type="Real32" Value="0.8"/>
+						<Property Name="PreDelay" Type="Real32" Value="2"/>
+						<Property Name="Quality" Type="int32" Value="10"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
+						<Property Name="RoomShape" Type="Real32" Value="31"/>
+						<Property Name="RoomSize" Type="Real32" Value="15"/>
+						<Property Name="StereoWidth" Type="Real32" Value="142"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="SpatialAudio_Room_Medium" ID="{05B23C85-8D32-420B-B481-1199CA275683}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<Comment>When using RoomVerb with Spatial Audio rooms, we generatlly want to disable both early reflections (they wil be handled by Reflect) and the dry output (it is handled by the direct path)</Comment>
+					<PropertyList>
+						<Property Name="DecayTime" Type="Real32" Value="1.1"/>
+						<Property Name="Density" Type="Real32" Value="100"/>
+						<Property Name="Diffusion" Type="Real32" Value="46"/>
+						<Property Name="DryLevel" Type="Real32" Value="-96"/>
+						<Property Name="ERLevel" Type="Real32" Value="-96"/>
+						<Property Name="EnableEarlyReflections" Type="bool" Value="False"/>
+						<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+						<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+						<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+						<Property Name="HFDamping" Type="Real32" Value="4.3"/>
+						<Property Name="Quality" Type="int32" Value="16"/>
+						<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
+						<Property Name="RoomShape" Type="Real32" Value="55"/>
+						<Property Name="RoomSize" Type="Real32" Value="15"/>
+						<Property Name="StereoWidth" Type="Real32" Value="115"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="ThirdPerson" ID="{E938C7CC-37F2-4F79-837B-184C59431163}" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">
+					<PropertyList>
+						<Property Name="CenterPerc" Type="Real32" Value="100"/>
+						<Property Name="CurveUsageMask" Type="Uint32" Value="511"/>
+						<Property Name="MaterialFilteringSelect" Type="Uint32" Value="1"/>
+						<Property Name="MaxDistance" Type="Real32" Value="50"/>
+					</PropertyList>
+					<PluginData>
+	<ReflectData>
+		<CurveList Version="4">
+			<CurveInfo Name="Diffraction Attenuation">
+				<Curve Name="Diffraction Attenuation">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>91.51047</XPos>
+							<YPos>-4.04925</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>-200</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Diffraction DSF">
+				<Curve Name="Diffraction DSF">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Diffraction HPF">
+				<Curve Name="Diffraction HPF">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Diffraction LPF">
+				<Curve Name="Diffraction LPF">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>16500</YPos>
+							<Flags>5</Flags>
+							<SegmentShape>Log3</SegmentShape>
+						</Point>
+						<Point>
+							<XPos>8.33333333333333</XPos>
+							<YPos>1000</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>100</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Attenuation (Image Source vs. Listener)">
+				<Curve Name="Distance Attenuation (Image Source vs. Listener)">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>50</XPos>
+							<YPos>-200</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance DSF">
+				<Curve Name="Distance DSF">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>50</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance High-pass Filter (Image Source vs. Listener)">
+				<Curve Name="Distance High-pass Filter (Image Source vs. Listener)">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>50</XPos>
+							<YPos>20000</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Low-pass Filter (Image Source vs. Listener)">
+				<Curve Name="Distance Low-pass Filter (Image Source vs. Listener)">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+							<SegmentShape>Log1</SegmentShape>
+						</Point>
+						<Point>
+							<XPos>13.49228</XPos>
+							<YPos>450.13539</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>50</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Spread (Image Source vs. Listener)">
+				<Curve Name="Distance Spread (Image Source vs. Listener)">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>39.0625</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>50</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ReflectData>
+</PluginData>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

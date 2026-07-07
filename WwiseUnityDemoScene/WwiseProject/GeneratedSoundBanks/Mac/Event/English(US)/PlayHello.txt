@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4862705	PlayHello			\Default Work Unit\PlayHello	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	88501119	Hello	.cache\BC\{BCBCFD26-CBD9-B265-FD26-3E9EC4511E38}.wem	88501119.wem	\Containers\Localized\Hello	
+

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2473335609	UserDefinedEvent			\Default Work Unit\UserDefinedEvent	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	273222379	Marker_Test_001	.cache\A0\{A006924F-C8E7-2072-FCAA-B65203653017}.wem		\Containers\SubtitleDemo\Marker_Test_001		938270
+

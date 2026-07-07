@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2107159840	Play_BasicTest			\AkIntegrationTests\Play_BasicTest	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	861166950	Modulator Envelope (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	2589936646	TestVolumeMeter	Wwise Meter			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	489272920	Wwise Synth One	Wwise Synth One		\Containers\AkIntegrationTests\BasicTest\Wwise Synth One	
+

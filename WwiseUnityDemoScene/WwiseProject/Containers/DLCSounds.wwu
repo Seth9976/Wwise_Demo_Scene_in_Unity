@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F917EFBB-A362-4965-A9C8-B6A373D0FA65}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="DLCSounds" ID="{F917EFBB-A362-4965-A9C8-B6A373D0FA65}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="imp_axe_stone_high" ID="{295A24DC-1ED2-46BA-BEDC-A23C59B75555}" ShortID="773615420">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>2400</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40E2D937-3626-46EA-9FEE-B10E15F6FDDF}"/>
+						</Reference>
+						<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAD3E5A5-0D7B-40D2-BBB3-2D84129754E0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="imp_axe_stone_04" ID="{DE84E543-86B7-4B71-A58B-93F9D3C37794}">
+							<Language>SFX</Language>
+							<AudioFile>imp_axe_stone_04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="652817804"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="imp_axe_stone_04" ID="{DE84E543-86B7-4B71-A58B-93F9D3C37794}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="imp_axe_stone_low" ID="{AE9C9BAB-5BFA-4AB6-9015-696F17D24217}" ShortID="805576430">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-830</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40E2D937-3626-46EA-9FEE-B10E15F6FDDF}"/>
+						</Reference>
+						<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAD3E5A5-0D7B-40D2-BBB3-2D84129754E0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="imp_axe_stone_04" ID="{2CE8A096-5649-48D2-BCF0-7006A9CD0AA0}">
+							<Language>SFX</Language>
+							<AudioFile>imp_axe_stone_04.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="652817804"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="imp_axe_stone_04" ID="{2CE8A096-5649-48D2-BCF0-7006A9CD0AA0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

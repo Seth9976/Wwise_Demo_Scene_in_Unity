@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BA707AD0-F203-46D6-975C-61D1C3D9E546}" SchemaVersion="133">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{BA707AD0-F203-46D6-975C-61D1C3D9E546}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="DLC" ID="{DF50AA38-E4DB-4C2A-9F4E-6AAAB65635FE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="DLCEvents" ID="{4C6B62D4-848C-4EB5-89EE-C784EAA0547B}" WorkUnitID="{4C6B62D4-848C-4EB5-89EE-C784EAA0547B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UserDefinedSoundBank" ID="{0DAE81CF-A07D-4497-8C4E-2252DCE1B655}">
+					<ObjectInclusionList>
+						<ObjectRef Name="UserDefinedEvent" ID="{2ADD703F-6400-40F4-9D17-8C2C711484A7}" WorkUnitID="{6A82CCC2-FC68-4CF7-B7A8-397BAEFB847C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

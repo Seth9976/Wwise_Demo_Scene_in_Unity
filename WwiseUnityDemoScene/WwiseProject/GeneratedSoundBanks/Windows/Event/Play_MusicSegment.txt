@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2524914122	Play_MusicSegment			\Default Work Unit\Play_MusicSegment	
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	78360149	Stinger			\Default Work Unit\Stinger	
+

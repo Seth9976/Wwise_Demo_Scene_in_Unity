@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="WwiseProject" GUID="{52C6E284-2882-47B0-8370-ABA1D4979CEA}" Generator="2025.1.8.9170"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Android" GUID="{A2D401DE-B8B6-4FEB-8142-137C34D507CB}" BasePlatform="Android" BasePlatformGUID="{A2D401DE-B8B6-4FEB-8142-137C34D507CA}" Path="Android"/>
+		<Platform Name="iOS" GUID="{ECE03DB4-F948-462D-B2BB-A9173012B1F9}" BasePlatform="iOS" BasePlatformGUID="{ECE03DB4-F948-462D-B2BB-A9173012B1F8}" Path="iOS"/>
+		<Platform Name="Linux" GUID="{BD0BDF13-3125-454F-8BFD-319537169F82}" BasePlatform="Linux" BasePlatformGUID="{BD0BDF13-3125-454F-8BFD-319537169F81}" Path="Linux"/>
+		<Platform Name="Mac" GUID="{9C6217D5-DD11-4795-87C1-6CE02853C541}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="Mac"/>
+		<Platform Name="PS4" GUID="{D0468FE5-280B-4F80-9635-6C5BBFCA5474}" BasePlatform="PS4" BasePlatformGUID="{3AF9B9B6-6EF1-47E9-B5FE-E30C9E602C77}" Path="PS4"/>
+		<Platform Name="PS5" GUID="{21E6384D-619A-4F02-87F4-233D5C7A6BEE}" BasePlatform="PS5" BasePlatformGUID="{662A5E67-9D35-48DA-B6A8-B77C7F1D84E0}" Path="PS5"/>
+		<Platform Name="Switch" GUID="{823190F7-CC8C-48DD-B469-569736CC7AD1}" BasePlatform="Switch" BasePlatformGUID="{874F26D2-416D-4698-BFB6-3427CAFCFF9C}" Path="Switch"/>
+		<Platform Name="Switch2" GUID="{2E741E16-1A58-46A6-820A-7C4EF070B529}" BasePlatform="Switch2" BasePlatformGUID="{A3DCE7A2-53E3-4347-9363-584D63B85ADF}" Path="Switch2"/>
+		<Platform Name="Windows" GUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EC}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+		<Platform Name="XboxOne" GUID="{3FD15046-C005-41FD-98B0-068B13678218}" BasePlatform="XboxOne" BasePlatformGUID="{B131584B-9961-4BB5-9C58-A3E9ABFFBBF6}" Path="XboxOne"/>
+		<Platform Name="XboxSeriesX" GUID="{C2992290-FF52-4113-BC8B-DF47A0F35684}" BasePlatform="XboxSeriesX" BasePlatformGUID="{26352FC0-7716-4F97-8DAF-3665EC2BB501}" Path="XboxSeriesX"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{87415D82-CE20-4E25-8C9E-2772C26990CD}" Default="true" UseAsStandIn="true"/>
+		<Language Name="French(CA)" Id="2785538656" GUID="{862BAB13-14DC-4E06-90C1-47F8D4757372}"/>
+	</Languages>
+	<FileHash>{AA142BF8-CA8C-CB0A-D490-3C228219DEEB}</FileHash>
+</ProjectInfo>

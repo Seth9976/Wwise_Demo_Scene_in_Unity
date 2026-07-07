@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FA0369CA-EBAF-465E-83B7-374C3B5771E5}" SchemaVersion="133">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{FA0369CA-EBAF-465E-83B7-374C3B5771E5}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="CubeAcceleration" ID="{2251B888-F22E-473D-AF73-0EAAEA49C9CF}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

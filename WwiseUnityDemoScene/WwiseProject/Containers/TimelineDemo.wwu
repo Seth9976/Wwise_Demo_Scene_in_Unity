@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{34AAE393-38C7-4212-8786-DE6154640AA3}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="TimelineDemo" ID="{34AAE393-38C7-4212-8786-DE6154640AA3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="CubeMovement" ID="{28596C07-AE42-45D4-AF28-1EF678FC6B47}" ShortID="968287244">
+					<ReferenceList>
+						<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{40E2D937-3626-46EA-9FEE-B10E15F6FDDF}"/>
+						</Reference>
+						<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAD3E5A5-0D7B-40D2-BBB3-2D84129754E0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Sine60" ID="{6221AFBB-4DCB-4E68-A4CD-69DEE1866E06}">
+							<Language>SFX</Language>
+							<AudioFile>Sine60.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="838083720"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{6E8057EA-8847-487F-953A-08E4D1F3C424}" ShortID="375481171">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Pitch"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput" CompanyID="4095" PluginID="65535" PluginType="15">
+										<ObjectRef Name="CubeAcceleration" ID="{2251B888-F22E-473D-AF73-0EAAEA49C9CF}" WorkUnitID="{FA0369CA-EBAF-465E-83B7-374C3B5771E5}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{7D473873-E369-42E8-9041-09FFE67A488A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>1510</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="Sine60" ID="{6221AFBB-4DCB-4E68-A4CD-69DEE1866E06}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>
